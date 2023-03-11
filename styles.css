@@ -566,3 +566,12 @@ footer ul{
         margin-left:-50px;
     }
 }
+
+footer p{
+    margin-top:100px;
+    text-align: center;
+}
+
+footer p a{
+    color:white;
+}
