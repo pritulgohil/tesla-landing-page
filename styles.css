@@ -563,5 +563,6 @@ footer ul{
         gap:15px;
         flex-direction: column;
         align-items: center;
+        margin-left:-50px;
     }
 }
