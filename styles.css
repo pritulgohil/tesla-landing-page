@@ -11,11 +11,11 @@ body{
     rgba(252, 252, 252, 0)60%,
     rgba(0, 0, 0, 0.701)
   ), url("images/roadster-hero-desktop.webp");
-    height:1000px;
+    height:100%;
     object-fit: cover;
     background-position: center;
     background-size:cover;
-    width:100%;
+    width:auto;
 }
 
 .navbar{
@@ -242,6 +242,50 @@ body{
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.5s;
+    }
+}
+
+.arrow{
+    text-align: center;
+    width:100%;
+    margin-top:30px;
+}
+
+.arrow .fa-solid{
+    color:rgb(198, 198, 198);
+    font-size: 2rem;
+    padding-top:20px;
+}
+
+.arrow .fa-solid:hover{
+    transform: scale(1.5);
+    transition: transform 0.5s ease-in-out;
+    cursor:pointer;
+}
+
+
+.black{
+    background-color: #080708;
+    height:500px;
+}
+
+.video{
+    width:80%;
+    margin:0 auto 0 auto;
+    text-align: center;
+    padding-top:50px;
+}
+
+video{
+    width:80%;
+}
+
+@media only screen and (max-width: 768px){
+    video{
+        width:100%;
+    }
+    .video{
+        width:100%;
     }
 }
 
