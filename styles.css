@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family: 'Montserrat', sans-serif;
+    background-color: black;
 }
 
 /* Section 1 */
@@ -323,9 +324,9 @@ video{
 
     .details{
         color:white;
-        margin-top:-100px;
+        margin-top:-50px;
         text-align: center;
-        padding:0 20px 20px 20px;
+        padding:0 20px 30px 20px;
     }
 }
 
