@@ -13,7 +13,7 @@
 </head>
 <body>
     <section>
-        <div class="hero">
+        <div class="hero slide-in-bck-center">
             <div class="navbar">
                 <div class="logo">
                     <img src="images/tesla-logo.png">
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="heading">
-                <h1>Roadster</h1>
+                <h1 class="slide-in-bck-center">Roadster</h1>
             </div>
             <div class="figures">
                 <div class="columns">
@@ -73,14 +73,14 @@
     </section>
     <section class="black">
         <div class="video">
-            <video controls>
+            <video id="vdo" onmouseover="myFunction()" controls>
                 <source src="images/tesla.mp4" type="video/mp4">
             </video>
         </div>
     </section>
     <section class="position1">
         <div class="image2">
-            <img src="images/roadster-aero-desktop.webp">
+            <img class="slide-in-bck-center" src="images/roadster-aero-desktop.webp">
         </div>
         <div class="details">
             <h2>Designed for Performance and Aero Efficiency</h2>
@@ -179,5 +179,6 @@
         <p>Tesla Roadster Webpage Clone Made by <a href="https://github.com/pritulgohil/tesla-landing-page" target="_blank">Pritul Gohil</a></p>
     </footer>
 <script src="https://kit.fontawesome.com/68cd47e680.js" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </body>
 </html>
