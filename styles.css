@@ -457,7 +457,7 @@ video{
     padding-top: 50px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 810px){
     .parent{
         display:flex;
         flex-direction: column;
@@ -557,7 +557,7 @@ footer ul{
     justify-content: center;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 810px){
     footer ul{
         display: flex;
         gap:15px;
